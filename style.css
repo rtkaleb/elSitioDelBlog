@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f0f0;  
+  font-family: Arial, sans-serif;  
+  margin: 20px;  
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+.navbar {
+  list-style: none;
+  display: flex;
+  background-color: #333;
+  padding: 10px;
+  position: sticky;
+  justify-content: space-around;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav--container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /*Fuera del contenedor*/
+    padding: 15px 10px 15px 0px; /*Dentro del contenedor*/
+    position: sticky; /*Fija el contenedor en la pantalla*/
+    width: 100%;
+}
+
+.nav--options ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav--img img { /*Se agrega el elemento "img" para que afecte a ese elemento en espec[ifico dentro del div y no a todo el div */
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text--container {
+    border: solid 1px #ccc;
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+}
